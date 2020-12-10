@@ -14,7 +14,7 @@ Nguyen Chi Hieu
 
 ## LICENSE / USE
 
-The javatuples directory contains a collection of network topologies, which are not our work. All other code / scripts / materials are original contributions of the above contributors, and are released under the MIT LICENSE (see "./LICENSE"). 
+The javatuples directory contains a collection of network topologies, which are not our work. Other code is original contributions of the above contributors, and is released under the MIT LICENSE (see "./LICENSE"). 
 
 We would appreciate you citing this code and the most relevant of our associated research publications below.
 
@@ -28,36 +28,27 @@ A Reduction Model For Simulating Large-Scale Interconnection Network (Nguyen Tie
 
 Directory listing:
 
-* common:
+* common: contains some data structures and some utility classes for standard inputs and outputs
 
-* config
+* config: provides a class which contains all constants in this project
 
-* custom:
+* custom: code for creating the fat-tree graph and and its routing algorithm
 
-* events:
+* events: contains all the events for the simulator and actions for these events
 
-* infrastructure
+* infrastructure: provides essentials for infrastructure of this project
 
-* javatuples
+* javatuples: contains tuples of network elements
 
-* network
+* network: contains all elements of the topology such as layers, hosts, switches, buffers, routing tables, ...
 
-* results
+* results: you will find the results of the program here
 
-* routing
+* routing: code for routing algorithm and routing path
 
-* simulator
+* simulator: code for create the simulator and its actions
 
-* weightedloadexperiment
-
-gnuplotscripts -- contains gnuplot plot files corresponding to some plots in our above papers (mostly (2)).
-lpmaker -- Java code which has a large number of graphs (in the 'graphs' subdir) and writes out the linear program for throughput for given graph parameters and traffic matrices (a few of which are encoded in Graph.java).
-plots -- This is where you'll find the plots in pdf format after you've run some scripts.
-resultfiles -- The text output from the scripts which 'gnuplotscripts' use to output 'plots'.
-scripts -- Contains a few scripts to generate results that appear in our papers.
-topology -- Temporary data holding directory where the linear program files are stored before they're run.
-upperBound -- Code for the upper bound on throughput; details in paper (2) above.
-graphRepo -- Several networks that we found in the public domain and tested. A description of the topologies is in graphRepo/sources.txt, and the appropriate references are cited in graphRepo/references.pdf. We are grateful to all the researchers that have made these network topologies available.
+* weightedloadexperiment: contains some ways to pair source hosts and destination hosts, GUI of the throughput grapha and main method
 
 ## INSTRUCTIONS FOR USE
 
