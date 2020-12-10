@@ -54,9 +54,9 @@ Directory listing:
 
 1. This project is written by java code, so you can run it on IDEs such as Eclipse, Netbeans, IntelliJ IDEA, ...
 
-2. Before running , you need to add the library "ssj" into your project. SSJ is a Java library for stochastic simulation, developed under the supervision of Pierre L'Ecuyer in the Simulation and Optimization Laboratory, Department of Computer Science and Operations Research at Université de Montréal. You can find this library in https://github.com/umontreal-simul/ssj
+2. Before running , you need to add the library *SSJ* into your project. SSJ is a Java library for stochastic simulation, developed under the supervision of Pierre L'Ecuyer in the Simulation and Optimization Laboratory, Department of Computer Science and Operations Research at Université de Montréal. You can find this library in https://github.com/umontreal-simul/ssj
 
-3. You can change the way to pair source host and destination host in the main method of this project, which is in the package 'weightedloadexperiment'.
+3. You can change the way to pair source host and destination host in the main method of this project, which is in the package *weightedloadexperiment*.
 
 ## NOTES
 
